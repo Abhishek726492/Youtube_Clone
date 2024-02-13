@@ -1,0 +1,79 @@
+.layout-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 55px;
+}
+@media (max-width: 750px) {
+  .layout-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 751px) and (min-width: 999px) {
+  .layout-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media(min-width: 1000px) {
+  .layout-grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+.video-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.channel {
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+}
+.video-info {
+  display: inline-block;
+  width: 100%;
+  margin-left: 10px;
+}
+.channel-logo {
+  width: 45px;
+  border-radius: 50px;
+}
+.thumbnail-row {
+  margin-bottom: 12px;
+  position: relative;
+}
+.video-time {
+  font-weight: 500;
+  position: absolute;
+  right: 8px;
+  bottom: 14px;
+  color: white;
+  background-color: black;
+  font-family: Roboto, Arial;
+  padding: 3px 5px;
+  border-radius: 2px;
+  font-size: 15px;
+}
+.thumbnail {
+  width: 100%;
+}
+.title {
+  width: 100%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 12px;
+  color: black; 
+  text-decoration: none;
+}
+.author,
+.stats {
+  font-size: 15px;
+  color: rgb(96,96,96);
+  text-decoration: none;
+  display: block;
+}
+.author {
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
