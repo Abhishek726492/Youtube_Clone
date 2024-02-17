@@ -4,17 +4,13 @@
   column-gap: 20px;
   row-gap: 55px;
 }
-@media (max-width: 750px) {
+@media (max-width: 950px) {
   .layout-grid {
     grid-template-columns: 1fr 1fr;
   }
 }
-@media (max-width: 751px) and (min-width: 999px) {
-  .layout-grid {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-@media(min-width: 1000px) {
+
+@media(min-width: 1300px) {
   .layout-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
